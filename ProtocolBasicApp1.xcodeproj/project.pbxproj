@@ -15,6 +15,7 @@
 		9CBE455224E7D3B100B8311F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE455024E7D3B100B8311F /* LaunchScreen.storyboard */; };
 		9CBE455D24E7D3B200B8311F /* ProtocolBasicApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE455C24E7D3B200B8311F /* ProtocolBasicApp1Tests.swift */; };
 		9CBE456824E7D3B200B8311F /* ProtocolBasicApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE456724E7D3B200B8311F /* ProtocolBasicApp1UITests.swift */; };
+		9CBE457624E7D44600B8311F /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE457524E7D44600B8311F /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9CBE456324E7D3B200B8311F /* ProtocolBasicApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolBasicApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBE456724E7D3B200B8311F /* ProtocolBasicApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBasicApp1UITests.swift; sourceTree = "<group>"; };
 		9CBE456924E7D3B200B8311F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBE457524E7D44600B8311F /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9CBE454724E7D3AB00B8311F /* SceneDelegate.swift */,
 				9CBE454924E7D3AB00B8311F /* ViewController.swift */,
 				9CBE454B24E7D3AB00B8311F /* Main.storyboard */,
+				9CBE457524E7D44600B8311F /* NextViewController.swift */,
 				9CBE454E24E7D3B100B8311F /* Assets.xcassets */,
 				9CBE455024E7D3B100B8311F /* LaunchScreen.storyboard */,
 				9CBE455324E7D3B100B8311F /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CBE454A24E7D3AB00B8311F /* ViewController.swift in Sources */,
+				9CBE457624E7D44600B8311F /* NextViewController.swift in Sources */,
 				9CBE454624E7D3AB00B8311F /* AppDelegate.swift in Sources */,
 				9CBE454824E7D3AB00B8311F /* SceneDelegate.swift in Sources */,
 			);
@@ -443,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.matsushima.mukku.ProtocolBasicApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.matsushima.mukku.ProtocolBasicApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
